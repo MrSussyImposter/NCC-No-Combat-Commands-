@@ -1,0 +1,14 @@
+combat-tag-duration: 30
+
+acl: true
+acl-method: KILL
+acl-warn-timer: 20
+
+blocked-commands:
+  - /tpa
+  - /home
+  - /spawn
+  - /warp
+  - /tp
+  - /back
+  - /rtp

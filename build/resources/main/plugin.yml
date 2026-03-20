@@ -1,0 +1,18 @@
+name: NoCombatCommands
+version: "1.0.0_1.21.11"
+main: dev.ncc.plugin.NoCombatCommands
+api-version: "1.21"
+description: Disables configured commands while a player is in combat.
+authors:
+  - NCC
+
+commands:
+  NCC:
+    description: Manage NoCombatCommands settings.
+    usage: /NCC <addcommand|removecommand> <command>
+    permission: ncc.admin
+
+permissions:
+  ncc.admin:
+    description: Allows managing NCC settings.
+    default: op
